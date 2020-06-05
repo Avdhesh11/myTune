@@ -1,0 +1,312 @@
+body {
+  margin: 0 !important;
+}
+
+p {
+  margin: 0;
+}
+
+/* navbar */
+.navbar {
+  background-color: #323232;
+}
+
+.navbar-brand {
+  font-size: 1.7rem;
+  font-weight: bold;
+  margin-left: 3%;
+}
+
+.navbar-nav {
+  margin-right: 5%;
+}
+
+.nav-item {
+  margin-left: 3%;
+}
+
+.top_container {
+  background-image: url("images/bg1.jpg");
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  padding-top: 13rem;
+}
+
+.top_heading {
+  text-align: center;
+  color: #fff;
+  font-size: 4rem;
+}
+
+.top_subheading {
+  color: white;
+  font-size: 2rem;
+  padding-top: 2.7rem;
+  margin-left: 2.3rem;
+  margin-right: 2.3rem;
+}
+
+.top_content {
+  color: white;
+  font-size: 1.3rem;
+  margin: 0 9%;
+  padding-top: 1.5rem;
+  padding-bottom: 20%;
+}
+
+@media screen and (max-width:530px) {
+  .top_content {
+    font-size: 0;
+    margin: 0 9%;
+    padding-top: 1.5rem;
+    padding-bottom: 10%;
+  }
+
+  .top_heading {
+    text-align: center;
+    color: #fff;
+    font-size: 3.5rem;
+  }
+
+  .top_subheading {
+    color: white;
+    font-size: 1.5rem;
+    padding-top: 2.3rem;
+    margin-left: 2.3rem;
+    margin-right: 2.3rem;
+  }
+
+  .top_container {
+    top: 5%;
+    width: 100%;
+    height: 100%;
+    padding-top: 8rem;
+  }
+}
+
+/* sec_container */
+.sec_container {
+  background-color: #252529;
+  text-align: center;
+  padding-top: 2.5rem;
+}
+
+.sec_heading {
+  color: white;
+  font-size: 2.5rem;
+}
+
+.music_icon {
+  color: white;
+  margin-right: 1%;
+}
+
+.sec_subheading {
+  color: white;
+  font-size: 2rem;
+  margin-top: 2.4rem;
+  margin-bottom: 2.2rem;
+}
+
+.sec_content {
+  color: white;
+  font-size: 1.3rem;
+  margin-left: 9%;
+  margin-right: 13%;
+}
+
+.sec_button {
+  border-radius: 0;
+  font-weight: lighter;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+}
+
+.sec_aft_btn {
+  color: white;
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+
+.sec_img {
+  margin-bottom: 2.5rem;
+  height: 100%;
+  width: 100%;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+/* third container */
+.thd_container {
+  text-align: center;
+  padding-top: 4rem;
+}
+
+.thd_heading {
+  color: #252529;
+}
+
+.thd_content {
+  color: #252529;
+  font-size: 1.2rem;
+  margin-left: 12%;
+  margin-right: 12%;
+  margin-top: 2rem;
+}
+
+.thd_btn {
+  background-color: #142d4c;
+  border-radius: 0;
+  border: 0;
+  margin-top: 0.5rem;
+}
+
+.thd_img {
+  margin-bottom: 3rem;
+  height: 100%;
+  width: 100%;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+/* fourth container */
+.fth_container {
+  text-align: center;
+  background-image: url("images/bg2.jpg");
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  padding-top: 10rem;
+}
+
+.fth_heading {
+  line-height: 1.5;
+}
+
+.fth_content {
+  font-size: 1.2rem;
+  padding-top: 2rem;
+  padding-bottom: 10rem;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+/* five container */
+.five_container {
+  color: #252529;
+  padding: 2% 8% 0;
+}
+
+.five_img {
+  float: left;
+  padding-bottom: 2%;
+  ;
+  height: 50%;
+  width: 50%;
+  margin-right: 2%;
+}
+
+.five_about {
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+
+.five_heading {
+  margin-bottom: 1.6rem;
+}
+
+hr {
+  border-color: grey;
+}
+
+.five_ach {
+  color: #142d4c;
+  font-size: 1.1rem;
+  text-decoration: none;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+@media screen and (max-width:1000px) {
+  .five_about {
+    margin-bottom: 0;
+  }
+
+  .five_img {
+    margin-bottom: 0;
+  }
+
+  .five_container {
+    color: #252529;
+    padding: 2% 5% 0;
+  }
+}
+
+@media screen and (max-width:850px) {
+  .five_about {
+    margin: 0 4%;
+  }
+
+  .five_img {
+    margin-bottom: 0;
+    float: none;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+  }
+}
+
+/* six_containe */
+.six_container {
+  background-color: #252529;
+  color: white;
+  margin-top: 12%;
+  margin-bottom: 0;
+  text-align: left;
+  padding: 3% 13%;
+}
+
+@media screen and (max-width:800px) {
+  .six_container {
+    display: none;
+    margin: 0;
+  }
+}
+
+.six_item {
+  color: white;
+  font-weight: lighter;
+}
+
+.six_item:hover {
+  color: white;
+}
+
+.six_line {
+  color: black;
+}
+
+.six_tb {
+  padding-right: 4%;
+}
+
+/* last_container */
+.last_container {
+  color: white;
+  background-color: #323232;
+  text-align: center;
+  margin-bottom: 0;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
